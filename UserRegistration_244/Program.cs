@@ -18,9 +18,13 @@
             //LastNameCapi.LastNameValidation(LName);
 
             //UR3
-            Console.WriteLine("\n\nEnter your email name : ");
-            string email = Console.ReadLine();
-            bool checkEmail = ValidEmail.EmailValidation(email); //Calling method to check email 
+            //Console.WriteLine("\n\nEnter your email name : ");
+            //string email = Console.ReadLine();
+            //bool checkEmail = ValidEmail.EmailValidation(email); //Calling method to check email 
+
+            //UR4
+            Console.Write("Enter The Mobile Number:");
+            String mob = Console.ReadLine();
 
 
         }
