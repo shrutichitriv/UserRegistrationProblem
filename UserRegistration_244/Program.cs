@@ -49,17 +49,32 @@
             //}
 
             //UR6
-            Console.Write("enter the password:");
-            string pass = Console.ReadLine();
+            //Console.Write("enter the password:");
+            //string pass = Console.ReadLine();
 
-            if (PasswordUpperCase.validate(pass))
+            //if (PasswordUpperCase.validate(pass))
+            //{
+            //    Console.WriteLine("valid");
+            //}
+            //else
+            //{
+            //    Console.WriteLine("invalid");
+            //}
+
+
+            //UR7
+            Console.Write("Enter The Password:");
+            String pass = Console.ReadLine();
+
+            if (Password1Numeric.validate(pass))
             {
-                Console.WriteLine("valid");
+                Console.WriteLine("Valid");
             }
             else
             {
-                Console.WriteLine("invalid");
+                Console.WriteLine("Invalid");
             }
+
 
 
 
