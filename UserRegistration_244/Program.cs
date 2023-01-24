@@ -63,10 +63,24 @@
 
 
             //UR7
+            //Console.Write("Enter The Password:");
+            //String pass = Console.ReadLine();
+
+            //if (Password1Numeric.validate(pass))
+            //{
+            //    Console.WriteLine("Valid");
+            //}
+            //else
+            //{
+            //    Console.WriteLine("Invalid");
+            //}
+
+
+            //UR8
             Console.Write("Enter The Password:");
             String pass = Console.ReadLine();
 
-            if (Password1Numeric.validate(pass))
+            if (Pass1SpecialCharacter.validate(pass))
             {
                 Console.WriteLine("Valid");
             }
@@ -74,6 +88,21 @@
             {
                 Console.WriteLine("Invalid");
             }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
