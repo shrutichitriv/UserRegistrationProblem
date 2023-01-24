@@ -23,8 +23,32 @@
             //bool checkEmail = ValidEmail.EmailValidation(email); //Calling method to check email 
 
             //UR4
-            Console.Write("Enter The Mobile Number:");
-            String mob = Console.ReadLine();
+            //Console.Write("Enter The Mobile Number:");
+            //String mob = Console.ReadLine();
+
+            //if (MobileNumber.validate(mob))
+            //{
+            //    Console.WriteLine("Valid Data");
+            //}
+            //else
+            //{
+            //    Console.WriteLine("Invalid Data");
+            //}
+
+            //UR5
+            Console.Write("Enter The Password:");
+            String pass = Console.ReadLine();
+
+            if (Pass8Chara.validate(pass))
+            {
+                Console.WriteLine("Valid");
+            }
+            else
+            {
+                Console.WriteLine("Invalid");
+            }
+
+
 
 
         }
