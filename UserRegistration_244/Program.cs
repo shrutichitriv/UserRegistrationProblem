@@ -36,18 +36,30 @@
             //}
 
             //UR5
-            Console.Write("Enter The Password:");
-            String pass = Console.ReadLine();
+            //Console.Write("Enter The Password:");
+            //String pass = Console.ReadLine();
 
-            if (Pass8Chara.validate(pass))
+            //if (Pass8Chara.validate(pass))
+            //{
+            //    Console.WriteLine("Valid");
+            //}
+            //else
+            //{
+            //    Console.WriteLine("Invalid");
+            //}
+
+            //UR6
+            Console.Write("enter the password:");
+            string pass = Console.ReadLine();
+
+            if (PasswordUpperCase.validate(pass))
             {
-                Console.WriteLine("Valid");
+                Console.WriteLine("valid");
             }
             else
             {
-                Console.WriteLine("Invalid");
+                Console.WriteLine("invalid");
             }
-
 
 
 
